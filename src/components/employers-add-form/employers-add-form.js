@@ -40,6 +40,7 @@ class EmployeesAddForm extends Component {
 						name="name"
 						value={name}
 						onChange={this.onValueChange}
+            required
 					/>
 					<input
 						type="number"
@@ -48,6 +49,7 @@ class EmployeesAddForm extends Component {
 						name="salary"
 						value={salary}
 						onChange={this.onValueChange}
+            required
 					/>
 
 					<button type="submit" className="btn btn-outline-light">
